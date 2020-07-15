@@ -1,0 +1,65 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #2196f3; */
+  height: 50vh;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  background-color: coral;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin-top: 200px; */
+}
+
+.btn {
+  background-color: #fff;
+  margin-top: 10rpx;
+  /* width:400rpx;
+  height: 100rpx; */
+  font-size: 18px;
+  color: #2196f3;
+  border-radius: 0;
+  /* border-color: #2196f3; */
+  border: 2rpx solid #2196f3;
+}
+
+.btn::after {
+  border-radius: 0;
+  border: none;
+}
+.searchWeather{
+  flex-direction: row;
+  display: inherit;
+  flex: 1;
+}
+.searchWeather input{
+  border: 1rpx solid #2196f3;
+  padding-left: 5rpx;
+  width: 300rpx;
+}
+.searchWeather button{
+  width: 200rpx;
+  font-size: 24rpx;
+}
+.btn-start{
+  background-color: coral;
+  color: white;
+  width: 50%;
+}

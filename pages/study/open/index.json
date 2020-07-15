@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "小程序学习-开放能力",
+  "backgroundColor": "#fff",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#F44336"
+}

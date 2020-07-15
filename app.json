@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/study/index",
+    "pages/study/widget/index",
+    "pages/study/open/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00E676",
+    "navigationBarTitleText": "Kevin",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath":"pages/study/widget/index",
+        "text":"组件",
+        "iconPath":"image/ic_widget.png",
+        "selectedIconPath":"image/ic_widget_selected.png"
+      },{
+        "pagePath":"pages/study/open/index",
+        "text":"扩展能力",
+        "iconPath":"image/ic_open.png",
+        "selectedIconPath":"image/ic_open_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath":"image/ic_log.png",
+        "selectedIconPath":"image/ic_log_selected.png"
+      }
+    ],
+    "position": "bottom",
+    "backgroundColor": "#fff",
+    "selectedColor": "#1296db"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib":{
+    "weui":true
+  }
+}
